@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="net.ossrs.yasea.demo.MainActivity">
+
+    <TextureView
+        android:id="@+id/screenTextureView"
+        android:layout_width="match_parent"
+        android:layout_height="285dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/screenTextureView">
+
+
+        <Button
+            android:id="@+id/btnPlayTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Start"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnStopTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Pause"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnRewindTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Rewind"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnAdvanceTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Advance"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnHalfSpeed"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="X0.5"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnOriginSpeed"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="X0.1"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnTwiceSpeed"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="X0.2"
+            android:textAllCaps="false" />
+
+
+    </LinearLayout>
+
+    <net.ossrs.yasea.SrsCameraView
+        android:id="@+id/glsurfaceview_camera"
+        android:layout_width="147dp"
+        android:layout_height="152dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="500dp"
+        android:layout_marginLeft="-3dp"
+        android:layout_marginTop="-3dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="3dp" />
+
+
+    <Button
+        android:id="@+id/pause"
+        android:layout_width="36dp"
+        android:layout_height="28dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="500dp"
+        android:layout_marginLeft="261dp"
+        android:layout_marginTop="95dp"
+        android:text="Pause"
+        android:textSize="3sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="601dp"
+        android:layout_below="@id/pause"
+        android:layout_marginTop="0dp"
+        android:layout_marginStart="500dp"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/publish"
+            android:layout_width="36dp"
+            android:layout_height="28dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:text="publish"
+            android:textSize="3sp" />
+
+        <Button
+            android:id="@+id/swCam"
+            android:layout_width="36dp"
+            android:layout_height="28dp"
+            android:textSize="3sp"
+            android:layout_alignBottom="@+id/publish"
+            android:layout_toRightOf="@+id/publish"
+            android:text="switch" />
+
+        <Button
+            android:id="@+id/record"
+            android:layout_width="36dp"
+            android:layout_height="28dp"
+            android:textSize="3sp"
+            android:layout_alignBottom="@+id/publish"
+            android:layout_toRightOf="@id/swCam"
+            android:text="record" />
+
+        <Button
+            android:id="@+id/swEnc"
+            android:layout_width="36dp"
+            android:layout_height="28dp"
+            android:textSize="3sp"
+            android:layout_alignBottom="@+id/publish"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@id/record"
+            android:text="soft" />
+    </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/url"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/accent_material_light"
+            android:textSize="14dp" />
+
+
+</RelativeLayout>
