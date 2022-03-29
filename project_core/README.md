@@ -2,7 +2,8 @@
 
 ## 전체 블록 다이어그램
 ---
-<img width="1255" alt="all_block_diagram" src="https://user-images.githubusercontent.com/88064555/160376919-b7f6c644-6821-448c-af6a-d025ebe4c505.png">
+
+<img width="864" alt="스크린샷 2022-03-30 오전 3 32 08" src="https://user-images.githubusercontent.com/88064555/160681059-60287651-0453-441f-8509-bf327c3f328f.png">
 
 ---
 
@@ -26,5 +27,8 @@ capstone_socket.py를 본인 PC의 IP를 입력하고 port 번호를 임의로 �
 ## 테스트 파이썬 서버(capstone_socket.py)
 
 서버 측에서 전송하는 데이터로 안드로이드 동영상이 정상적으로 제어 되는지 확인하기 위한 목적이다.
+
+---
+
 
 
