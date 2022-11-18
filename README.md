@@ -4,7 +4,7 @@
     <img src="https://user-images.githubusercontent.com/95459089/202703971-2c0ac543-a56e-4604-a9a4-ba9ec73fd3c6.gif">
 </p>
 
-----------
+
 ## ***Introduction*** ✔
 
 + Why: 레시피 영상이 요리 초보의 진도에 맞춰 재생되게 하고 싶다.
