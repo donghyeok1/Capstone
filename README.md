@@ -1,6 +1,6 @@
 # 광운대학교 전자통신공학과 캡스톤 프로젝트
 
-![03_03_문장_로고타입_조합_국영문_가로_1Color_typeB](https://user-images.githubusercontent.com/88064555/160678993-70372853-5ca5-42bf-85a6-de9f68d5f888.jpg)
+![image](https://user-images.githubusercontent.com/95459089/202702529-f1dcac8b-a5cd-4643-84c9-c32fdd3c18cd.png)
 
 ----------
 ## 프로젝트 목적
