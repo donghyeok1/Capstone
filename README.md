@@ -128,7 +128,9 @@
 
 - **시작 화면**
 
-![image](https://user-images.githubusercontent.com/95459089/202745504-51472b87-1172-459a-801b-72bbd1b28326.png)
+<p aligh="center">
+    <img src="https://user-images.githubusercontent.com/95459089/202745504-51472b87-1172-459a-801b-72bbd1b28326.png">
+</p>
 
 - **메인 화면**
 
