@@ -1,4 +1,4 @@
-# Android Studio 모션 인식을 이용한 영상 
+# Android Studio 모션 인식을 이용한 영상 제어 
 
 <p aligh="center">
     <img src="https://user-images.githubusercontent.com/95459089/202703971-2c0ac543-a56e-4604-a9a4-ba9ec73fd3c6.gif">
