@@ -12,7 +12,6 @@
 + How: 안드로이드 어플리케이션
 <hr>
 
-----------
 ### ***Summary*** 🔽 
 - Project Block Diagram
 <img width="864" alt="스크린샷 2022-03-30 오전 3 32 08" src="https://user-images.githubusercontent.com/88064555/160681059-60287651-0453-441f-8509-bf327c3f328f.png">
@@ -35,7 +34,7 @@
     - 분류된 클래스로 실행한 함수 시각화
     - 영상과 카메라 concurrent execution
  
-----------
+<hr>
 ### ***조원 및 역할*** 🤔
 
 + 김진만 - 음성 인식부
