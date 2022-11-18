@@ -22,12 +22,14 @@
     - 제스처 분류 API 구현
     - 영상 제어 API 구현
     - Youtube 영상과 안드로이드 내장 카메라 concurrent execution
+    - 음성 분류 API 구현
     
 - BACKEND
     - Mediapipe(안드로이드)를 활용한 안드로이드 카메라 입력 데이터화
     - TensorFlow Lite를 활용하기 위해 데스크탑 환경에서 학습시킨 데이터를 tflite 모델로 변환
     - Youtube API를 이용한 영상 제어 함수 커스터마이징
     - 학습된 데이터를 기반으로 클래스 분류 API
+    - 음성 인식 API를 활용한 클래스 분류 API
     
 - FRONTEND
     - Youtube 크롤링으로 받아온 JSON 객체 이미지화
@@ -42,8 +44,69 @@
 + 조시언 - 제스쳐 인식부
 + 최동혁 - 음성/제스쳐 통신부
 
+### ***IDE***
+- BACKEND
+    - VScode
+    - Android Studio
+- FRONTEND
+    - VScode
+    - Android Studio
+ 
+ ### ***Front Components***
+ 1️⃣  레이아웃 관련 Components
+ 
+ | File Name | Directory              | 목적            |
+ | --------- | ---------------------- | --------------- |
+ | activity_main.xml | /res/ layout/ | 영상,카메라 레이아웃 |
+ | item_utube.xml | /res/ layout/ | 크롤링 레이아웃 |
+ | youtube_search.xml | /res/ layout/ | 검색 레이아웃 |
+ | setup.xml | /res/ layout/ | 도움말 레이아웃 |
+ 
+ 2️⃣  애니메이션 Components
+ 
+ | File Name | Directory              | 목적            |
+ | --------- | ---------------------- | --------------- |
+ | fade_out.xml | /res/ anim/ | 시작 화면 레이아웃 |
+
+ 3️⃣  사이드바, 메뉴 Components
+ 
+ | File Name | Directory              | 목적            |
+ | --------- | ---------------------- | --------------- |
+ | menu.xml | /res/ layout/ | 기능 사이드바 |
+ | toolbar_menu.xml | /res/ layout/ | 영상 조작 툴바 |
+
+ ### ***Back Components***
+ 1️⃣  기능 구현 Components
+ 
+ | File Name | Directory              | 목적            |
+ | --------- | ---------------------- | --------------- |
+ | MainActivity.java | /hands/main/java/com/google/mediapipe/examples/hands/  | 카메라, 음성 허가, 메인 화면 기능 |
+ | Search.java | /hands/main/java/com/google/mediapipe/examples/hands/ | 크롤링 기능 |
+ | SeconActivity.java | /hands/main/java/com/google/mediapipe/examples/hands/ | 검색 레이아웃 |
+ | Youtube.java | /hands/main/java/com/google/mediapipe/examples/hands// | 영상, 카메라 기능 |
+ | Setup.java | /hands/main/java/com/google/mediapipe/examples/hands/ | 도움말 기능 |
+ 
+ 2️⃣  학습 데이터 Components
+ 
+ | File Name | Directory              | 목적            |
+ | --------- | ---------------------- | --------------- |
+ | keras_model.tflite | /hands/src/main/assets/ | 학습된 데이터셋 |
+
+ 3️⃣  환경설정 Components
+ 
+ | File Name | Directory              | 목적            |
+ | --------- | ---------------------- | --------------- |
+ | AndroidManifest.xml | /hands/src/main/ | 환경 설정 |
+ 
+ 4️⃣  API Components
+
+ | File Name | Directory              | 목적            |
+ | --------- | ---------------------- | --------------- |
+ | YouTubeAndroidPlayerApi.jar | /hands/libs/ | Youtube API |
+ | google_http_client_jackson2-1.0.1.jar | /hands/libs/ | 음성 인식 API |
+
 ## 폴더 사용 방법
----
+
 + **project_core**
 
     _모든 블록들을 병합한 프로젝트_
