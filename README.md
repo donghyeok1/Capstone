@@ -1,4 +1,4 @@
-# 광운대학교 전자통신공학과 캡스톤 프로젝트
+# ViCon
 
 <p aligh="center">
     <img src="https://user-images.githubusercontent.com/95459089/202703971-2c0ac543-a56e-4604-a9a4-ba9ec73fd3c6.gif">
