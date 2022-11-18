@@ -12,12 +12,32 @@
 + How: 안드로이드 어플리케이션
 <hr>
 
+----------
 ### ***Summary*** 🔽 
 - Project Block Diagram
 <img width="864" alt="스크린샷 2022-03-30 오전 3 32 08" src="https://user-images.githubusercontent.com/88064555/160681059-60287651-0453-441f-8509-bf327c3f328f.png">
 
-## 조원 및 역할
------
+- Project 소개
+    - ViCon (모션 인식을 기반한 영상 제어 시스템)
+    - Youtube 영상 크롤링
+    - 제스처 분류 API 구현
+    - 영상 제어 API 구현
+    - Youtube 영상과 안드로이드 내장 카메라 concurrent execution
+    
+- BACKEND
+    - Mediapipe(안드로이드)를 활용한 안드로이드 카메라 입력 데이터화
+    - TensorFlow Lite를 활용하기 위해 데스크탑 환경에서 학습시킨 데이터를 tflite 모델로 변환
+    - Youtube API를 이용한 영상 제어 함수 커스터마이징
+    - 학습된 데이터를 기반으로 클래스 분류 API
+    
+- FRONTEND
+    - Youtube 크롤링으로 받아온 JSON 객체 이미지화
+    - 분류된 클래스로 실행한 함수 시각화
+    - 영상과 카메라 concurrent execution
+ 
+----------
+### ***조원 및 역할*** 🤔
+
 + 김진만 - 음성 인식부
 + 이정연 - 카메라/마이크, 명령어 분류부/적용부
 + 조시언 - 제스쳐 인식부
